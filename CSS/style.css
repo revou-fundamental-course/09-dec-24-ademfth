@@ -1,1 +1,53 @@
 /* Ini Css */
+.main-header {
+        display: flex;
+        justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>a {
+    border: 1px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: 1px solid;
+}
+
+.home-icon {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.pinimg.com/736x/98/ba/1f/98ba1f3ff9ee52cde6aaad205d8f5fd1.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 50%;
+}
+
+
+.banner-img {
+    height: 320px;
+    background-image: url(https://i.pinimg.com/736x/98/ba/1f/98ba1f3ff9ee52cde6aaad205d8f5fd1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+}
+.main-item {
+    flex: 1;
+}
+form {
+    flex: 1;
+    border: 1px solid;
+}
