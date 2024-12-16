@@ -21,6 +21,7 @@ nav>a {
 
 hr {
     border: 1px solid;
+
 }
 
 .home-icon {
@@ -32,7 +33,15 @@ hr {
     background-position: right;
     border-radius: 50%;
 }
+ .secound-header {
+    text-align: center;
 
+ }
+
+ h3 {
+    text-align: center;
+    color: gray;
+ }
 
 .banner-img {
     height: 320px;
@@ -43,11 +52,20 @@ hr {
 
 .main-container {
     display: flex;
+    gap: 24px;
 }
 .main-item {
     flex: 1;
 }
 form {
-    flex: 1;
-    border: 1px solid;
+    background-color: aliceblue;
+    
+}
+
+.content-header {
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-top: 84px;
 }
